@@ -1,7 +1,8 @@
 (defproject mies "0.1.0"
   :dependencies [[org.clojure/clojure "1.9.0-alpha17"]
                  [org.clojure/clojurescript "1.9.854"]
-                 [cljsjs/react "15.5.4-0"]] 
+                 [cljsjs/react-with-addons "15.5.4-0"]
+                 [cljsjs/react-dom "15.5.4-0" :exclusions [cljsjs/react]]] 
 
   :plugins [[lein-cljsbuild "1.1.7"]]
 
